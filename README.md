@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Safety Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Safety Dashboard is a single-page application developed to visualize and manage safety incidents reported across various projects. It's designed to provide a quick and intuitive overview of incidents, allowing the Safety Manager to effectively monitor and analyze safety-related data.
 
-## Available Scripts
+## Functionalities
 
-In the project directory, you can run:
+### Data Visualization
+- **Dynamic Table Display**: Presents safety incident data in a tabular format. The table dynamically updates to reflect the current dataset.
+- **Sorting and Filtering**: Users can sort and filter the incident data based on different parameters such as date, project, severity, type, and employer.
 
-### `npm start`
+### Interactive Features
+- **Search Functionality**: Includes a search bar that allows users to quickly find specific incidents by keywords.
+- **Responsive Filters**: Offers responsive input filters for each column, enabling users to narrow down the dataset based on specific criteria.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How It Works
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Data Handling
+- **CSV Parsing**: The application parses a CSV file containing the incident data using `PapaParse`, converting it into a format suitable for display and manipulation within the app.
+- **State Management**: Utilizes React's `useState` and `useEffect` hooks for state management and data fetching.
 
-### `npm test`
+### UI Components
+- **React-Table Integration**: Leverages `react-table` for rendering the data in an organized, interactive table.
+- **Bootstrap Styling**: Employs Bootstrap for styling, ensuring a clean and user-friendly interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Deployment and Hosting
+- The application is deployed on `Vercel`, accessible at [URL](https://safety-dashboard.netlify.app/).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Getting Started
+- **Prerequisites**: Instructions on what needs to be installed or setup to run the project locally (e.g., Node.js, npm).
+- **Installation**: Steps to clone the repo, install dependencies, and run the project locally.
